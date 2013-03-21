@@ -10,4 +10,7 @@
  *
  */
 ?>
-<div <?php $this->html( 'userlangattributes' ) ?> > <center> <?php // generate additional footer links $footerlinks = array( 'lastmod', 'viewcount', 'numberofwatchingusers', ); ?> <?php foreach ( $footerlinks as $aLink ) { ?> <?php if ( isset( $this->data[$aLink] ) && $this->data[$aLink] ) { ?> <?php $this->html( $aLink ) ?> <center> <?php } ?> <?php } ?> </div> <!-- Info --> <?php $this->printTrail(); ?>
+<div <?php $this->html( 'userlangattributes' ) ?> > <center> <?php 
+// generate additional footer links 
+$footerlinks = array( 'lastmod', 'viewcount', 'numberofwatchingusers', ); ?> <?php foreach ( $footerlinks as $aLink ) { ?> <?php if ( isset( $this->data[$aLink] ) && $this->data[$aLink] ) { ?> <?php $this->html( $aLink ) ?> <center> <?php } ?> <?php } ?> </div>
+<?php $this->printTrail(); ?>
