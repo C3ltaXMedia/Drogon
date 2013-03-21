@@ -40,7 +40,7 @@ foreach ( $elements as $name => $element ) { echo "\n<!-- {$name} -->\n"; switch
 <li><a <?php echo $link['attributes'] ?> href="<?php echo htmlspecialchars( $link['href'] ) ?>" <?php echo $link['key'] ?>> <span <?php echo $link['attributes'] ?>> <?php echo htmlspecialchars( $link['text'] ) ?> </span> </a></li>
 <?php endforeach; 
 
-#Personal elements to Dragon
+# Personal elements to Dragon
 ?><?php break; case 'PERSONAL': ?><div style="float:left; width:180px;"><ul<?php $this->html( 'userlangattributes' ) ?>><?php foreach( $this->getPersonalTools() as $key => $item ) { ?><?php echo $this->makeListItem( $key, $item ); ?><?php } ?>
 </ul></div><?php break; case 'SEARCH': ?><form method="get" class="navbar-search pull-right" action="<?php $this->text('searchaction') ?>">
 <input name="search" type="text" placeholder="Suche" onfocus="if (this.value == '') {this.value = ''}" name="s" id="s" class="search-query" /><input name="go" type="hidden" tabindex="5" value="Go" />
