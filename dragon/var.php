@@ -1,7 +1,7 @@
 <?php
 /**
 *
-*	Multipage arangement for Dragon style
+*	Multipage arrangement for Dragon style
 *	by wikibyte color vars
 *
 *   @file $wgNavColor
