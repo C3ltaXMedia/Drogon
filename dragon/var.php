@@ -62,10 +62,9 @@ $SCSSPHP = "dragon/css/php";
 
 # Elementar essets module
 //$indexpa = 'w/index.php/';
-$indexpa = 'wiki/';
+//$indexpa = 'wiki/';
 
-/*********************** Einstellungen des Dersigns und der Farben ****************************/
-#Hintergrundfarbe:
-$wgSkinBackground ='background:#fafafa;';
+#Backgroundcolor:
+$wgSkinBackground ='fafafa';
 
 ?>
