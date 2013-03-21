@@ -5,8 +5,8 @@
  * @Labs.Wikibyte.org
  * @skin Wikibyte Dragon
  * @author Michael McCouman jr.
- * @copyright Copyright � 2012 Michael McCouman jr.
- * @license Copyright � 2012 Michael McCouman jr.
+ * @copyright Copyright &copy; 2012 Michael McCouman jr.
+ * @license Copyright (c)2012 Michael McCouman jr.
  *
  */
 
