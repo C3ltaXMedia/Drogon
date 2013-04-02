@@ -1,5 +1,5 @@
-Drogon
-======
+Wikibyte Drogon
+=================
 
 MediaWiki Skin (Wikibyte.org)<br>
 Pressend and developing by Michael McCouman jr.<br>
