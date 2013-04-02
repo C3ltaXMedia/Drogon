@@ -1,8 +1,8 @@
 Drogon
 ======
 
-MediaWiki Skin (Wikibyte.org)
-Pressend and developing by Michael McCouman jr.
+MediaWiki Skin (Wikibyte.org)<br>
+Pressend and developing by Michael McCouman jr.<br>
 More DevSkins: <br>
 * <a href="labs.wikibyte.org">Wikibyte Labs</a>
 
